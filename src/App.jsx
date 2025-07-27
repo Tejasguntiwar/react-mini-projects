@@ -1,5 +1,6 @@
 // App.jsx
 import './App.css'
+import LightDarkMode from './components/light-dark-mode'
 // import Accordian from './components/accordian'
 // import RandomColor from './components/random-color'
 // import StarRating from './components/star-rating'
@@ -27,7 +28,9 @@ function App() {
         {/* Tre-View Component/ menu UI component / recursive navigation menu */}
         {/* <TreeView menus={menus}/> */}
         {/* QR Code Generator */}
-        <QRCodeGenerator/>
+        {/* <QRCodeGenerator/> */}
+        {/* Light and Dark Mode switch */}
+        <LightDarkMode/>
       </div>
     </>
   )
