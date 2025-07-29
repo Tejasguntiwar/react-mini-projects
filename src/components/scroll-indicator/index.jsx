@@ -21,12 +21,14 @@ export default function ScrollIndicator({ url }) {
     } catch (e) {
       console.log(e);
       setErrorMsg(e.message);
+      setLoading(false);
     }
   }
 
   useEffect(() => {
     fetchData(url);
-  }, [url]);
+  }, [url]);    // Fetch is triggered whenever the url changes.
+
 
   function handleScrollPercentage() {
     console.log(
@@ -50,7 +52,7 @@ export default function ScrollIndicator({ url }) {
     window.addEventListener("scroll", handleScrollPercentage);
 
     return () => {
-      window.addEventListener("scroll", () => {});
+      window.removeEventListener("scroll", handleScrollPercentage);
     };
   }, []);
 
@@ -86,3 +88,4 @@ export default function ScrollIndicator({ url }) {
     </div>
   );
 }
+
