@@ -10,7 +10,8 @@ import './App.css'
 // import menus from './components/tree-view/data.js'
 // import QRCodeGenerator from './components/qr-code-generator'
 // import ScrollIndicator from "./components/scroll-indicator";
-import TabTest from "./components/custom-tabs/tabs-test";
+// import TabTest from "./components/custom-tabs/tabs-test";
+import ModalTest from './components/custom-modal/modal-test';
 
 function App() {
   return (
@@ -35,7 +36,9 @@ function App() {
         {/* Scroll Indicator */}
         {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
         {/* Custom tabs component */}
-        <TabTest/>
+        {/* <TabTest/> */}
+        {/* Custom Modal Popup Component */}
+        <ModalTest/>
       </div>
     </>
   )
