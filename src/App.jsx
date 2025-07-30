@@ -11,8 +11,8 @@ import './App.css'
 // import QRCodeGenerator from './components/qr-code-generator'
 // import ScrollIndicator from "./components/scroll-indicator";
 // import TabTest from "./components/custom-tabs/tabs-test";
-import ModalTest from './components/custom-modal/modal-test';
-
+// import ModalTest from './components/custom-modal/modal-test';
+import GithubProfileFinder from './components/github-profile-finder/index';
 function App() {
   return (
     <>
@@ -38,7 +38,9 @@ function App() {
         {/* Custom tabs component */}
         {/* <TabTest/> */}
         {/* Custom Modal Popup Component */}
-        <ModalTest/>
+        {/* <ModalTest/> */}
+        {/* Github Profile Finder */}
+        <GithubProfileFinder/>
       </div>
     </>
   )
