@@ -1,3 +1,4 @@
+// C:\SigmaWeb\React\Practice\react-practice-projects\src\components\accordian\index.jsx
 import { useState } from "react";
 import data from "./data.js";
 import "./styles.css";
@@ -60,3 +61,6 @@ export default function Accordian() {
     </div>
   );
 }
+
+
+
