@@ -15,8 +15,9 @@ import './App.css'
 // import GithubProfileFinder from './components/github-profile-finder/index';
 // import SearchAutocomplete from './components/search-autocomplete';
 // import TicTacToe from './components/tic-tac-toe';
-import FeatureFlagsGlobalState from './components/feature-flag/context/index';
-import FeatureFlags from './components/feature-flag';
+// import FeatureFlagsGlobalState from './components/feature-flag/context/index';
+// import FeatureFlags from './components/feature-flag';
+import UseFetchHookTest from './components/use-fetch/test';
 
 function App() {
   return (
@@ -51,9 +52,11 @@ function App() {
         {/* Tic Tac Toe Game */}
         {/* <TicTacToe/> */}
         {/* Feature Flags Implementation */}
-        <FeatureFlagsGlobalState>
+        {/* <FeatureFlagsGlobalState>
           <FeatureFlags/>
-        </FeatureFlagsGlobalState>
+        </FeatureFlagsGlobalState> */}
+        {/* useFetch - Custom Hook */}
+        <UseFetchHookTest/>
       </div>
     </>
   )
