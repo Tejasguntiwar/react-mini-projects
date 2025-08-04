@@ -1,5 +1,7 @@
 // App.jsx
 import './App.css'
+import ScrollToTopAndBottom from './components/scroll-to-top-and-bottom';
+import ScrollToSection from './components/scroll-to-top-and-bottom/scroll-to-section';
 // import LightDarkMode from './components/light-dark-mode'
 // import Accordian from './components/accordian'
 // import RandomColor from './components/random-color'
@@ -62,7 +64,11 @@ function App() {
         {/* Use Onclick Outside Hook Test */}
         {/* <UseOnclickOutsideTest/> */}
         {/* Use WIndow Resize Hook  Test */}
-        <UseWindowResizeTest/>
+        {/* <UseWindowResizeTest/> */}
+        {/* Scroll To Top and Bottom Component */}
+        {/* <ScrollToTopAndBottom/> */}
+        {/* Scroll To Particular Section */}
+        <ScrollToSection/>
       </div>
     </>
   )
