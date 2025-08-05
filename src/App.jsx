@@ -21,7 +21,8 @@ import ScrollToSection from './components/scroll-to-top-and-bottom/scroll-to-sec
 // import FeatureFlags from './components/feature-flag';
 // import UseFetchHookTest from './components/use-fetch/test';
 // import UseOnclickOutsideTest from './components/use-outside-click/test';
-import UseWindowResizeTest from './components/use-window-resize/test';
+// import UseWindowResizeTest from './components/use-window-resize/test';
+import Weather from './components/weather-app/weather';
 
 function App() {
   return (
@@ -68,7 +69,9 @@ function App() {
         {/* Scroll To Top and Bottom Component */}
         {/* <ScrollToTopAndBottom/> */}
         {/* Scroll To Particular Section */}
-        <ScrollToSection/>
+        {/* <ScrollToSection/> */}
+        {/* Weather App */}
+        <Weather/>
       </div>
     </>
   )
